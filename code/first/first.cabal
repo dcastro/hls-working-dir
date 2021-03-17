@@ -1,0 +1,30 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 1497263f08fba25b4413df19724c14e3aa3a61443e617b9a0f3b6cdfab8a75c1
+
+name:           first
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/first#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2021 Author name here
+license:        BSD3
+build-type:     Simple
+
+library
+  exposed-modules:
+      Main
+  other-modules:
+      Paths_first
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , directory
+    , template-haskell
+  default-language: Haskell2010
